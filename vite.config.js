@@ -11,5 +11,6 @@ export default defineConfig({
   },
   build: {
     outDir: "out"
-  }
+  },
+  base: process.env.VITE_BASE_PATH || "/Vite-Practice"
 })
