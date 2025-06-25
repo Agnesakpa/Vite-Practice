@@ -10,7 +10,7 @@ export default defineConfig({
     port: 3000
   },
   build: {
-    outDir: "out"
+    outDir: "dist"
   },
   base: process.env.VITE_BASE_PATH || "/Vite-Practice"
 })
